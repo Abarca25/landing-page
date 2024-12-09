@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.links-container{
+    display: flex;
+    padding: 20px;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.header-container img {
+    width: 75px;
+    height: 75px;
+}
+
+.website-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.info-container {
+    display:flex;
+    flex-direction: row; 
+    color: white;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-placeholder {
+    box-sizing: border-box;
+    display: flex;
+    background-color: antiquewhite;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.left-box {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    padding-right: 60px;
+    flex-direction: column;
+    width: 40%;
+}
+
+.quote-container {
+    background-color: #3f3f3f3b;
+}
+
+.information-container { 
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    align-content: center;
+    border-radius: 15px;
+    border:3px,solid,rgb(112, 112, 224);
+    width: 100px;
+    height: 100px;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.top-signup-button {
+    display: block;
+    width: 75px;
+    height: 35px;
+
+}
+
+.top-signup-button:hover {
+    color: aqua;
+}
+
+.second-section-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgba(95, 127, 172, 0.651)
+}
+
+.image-information {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.pepe {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-container h2 {
+    margin-top: 1px;
+}
