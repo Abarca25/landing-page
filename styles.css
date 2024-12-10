@@ -32,7 +32,7 @@ html, body {
 .info-container {
     display:flex;
     flex-direction: row; 
-    color: white;
+    color: #E5E7EB;
     justify-content: space-between;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -66,13 +66,16 @@ html, body {
     width: 600px;
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
     justify-content: center;
     align-items: center;
 }
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 50px;
 }
 
 .img-1, .img-2, .img-3, .img-4{
@@ -104,7 +107,7 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: rgba(95, 127, 172, 0.651)
+    background-color: whitesmoke
 }
 
 .image-information {
@@ -120,4 +123,72 @@ html, body {
 
 .information-container h2 {
     margin-top: 1px;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 350px;
+}
+
+
+.quote-flex-wrapper {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    box-sizing: border-box;
+    font-size: 36px;
+    font-weight: 900;
+    font-size: large;
+    font-family: hand;
+    align-content: end;
+}
+
+.quote-name {
+    color: rgb(216, 56, 56);
+    align-self: end;
+    margin-top: 0px;
+    padding-right: 20px;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 125px;
+    width: 800px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.sign-up-box {
+    display: flex;
+}
+
+.action-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-right: 20px;
+}
+
+.sign-up-text {
+}
+
+.bottom-signup-button {
+    border: 1px;
+    border-radius: 4px;
+    height: 35px;
+    align-self: center;
 }
