@@ -16,6 +16,10 @@ html, body {
     justify-content: space-between;
 }
 
+.links-container a {
+    padding-right: 20px;
+}
+
 .header-container img {
     width: 75px;
     height: 75px;
@@ -62,8 +66,9 @@ html, body {
 }
 
 .information-container { 
-    height: 250px;
+    box-sizing: border-box;
     width: 600px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,14 +83,6 @@ html, body {
     height: 50px;
 }
 
-.img-1, .img-2, .img-3, .img-4{
-    align-content: center;
-    border-radius: 15px;
-    border:3px,solid,rgb(112, 112, 224);
-    width: 100px;
-    height: 100px;
-}
-
 .info-wrapper {
     display: flex;
     justify-content: center;
@@ -94,35 +91,48 @@ html, body {
 .top-signup-button {
     display: block;
     width: 75px;
+    border: 1px;
+    border-radius: 4px;
     height: 35px;
 
 }
 
 .top-signup-button:hover {
-    color: aqua;
+    background-color: beige;
 }
 
 .second-section-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background-color: whitesmoke
+    height: 350px;
+    background-color: whitesmoke;
+
 }
 
 .image-information {
     display: flex;
     justify-content: space-between;
-    height: 100px;
 }
 
 .pepe {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
-.information-container h2 {
-    margin-top: 1px;
+
+.pepe p {
+    flex: 2 1;
+}
+
+.imgage{
+    align-content: center;
+    border-radius: 15px;
+    border:3px,solid,rgb(112, 112, 224);
+    height: 100px;
+    width: 100px;
+    
 }
 
 .quote-container {
@@ -191,4 +201,8 @@ html, body {
     border-radius: 4px;
     height: 35px;
     align-self: center;
+}
+
+.bottom-signup-button:hover {
+    background-color: beige;
 }
